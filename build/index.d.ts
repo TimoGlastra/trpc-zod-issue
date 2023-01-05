@@ -3,8 +3,8 @@ export declare const input: {
     name: string;
 };
 export declare const output: {
-    [x: string]: unknown;
-    name: string;
+    [x: string]: never;
+    [x: number]: never;
 };
 export declare const client: {
     test: {
